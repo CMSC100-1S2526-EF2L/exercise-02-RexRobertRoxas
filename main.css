@@ -1,0 +1,38 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#header {
+    border: 1px solid black;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+.header_sections {
+    font-size: 20px;
+    min-width: 150px;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+#header_title {
+    flex-grow: 1;
+    text-align: left;
+}
+
+#body {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    text-align: center;
+    font-size: 20px;
+    height: 100px;
+    padding-top: 400px;
+    width: 100%;
+    border: 1px solid black;
+}
