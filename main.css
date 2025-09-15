@@ -1,3 +1,13 @@
+/* debug */
+div {
+    border: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+}
+
+
 body {
     padding: 0px;
     margin: 0px;
@@ -5,7 +15,7 @@ body {
 
 #header {
     border: 1px solid black;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -35,4 +45,54 @@ body {
     padding-top: 400px;
     width: 100%;
     border: 1px solid black;
+}
+
+#profile_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center stretch;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#feature_picture_container {
+    width: 40%;
+}
+
+#feature_picture {
+    width: 100%;
+    height: 100%;
+}
+
+#profile_information {
+    flex-grow: 1;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 20px;
+    padding: 5px;
+    border-collapse: collapse;
+} 
+
+.information_cell_value {
+    width: 70%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.information_cell_label {
+    width: 30%;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.section_container_horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.section_container_vertical {
+    display: flex;
+    flex-direction: column;
 }
