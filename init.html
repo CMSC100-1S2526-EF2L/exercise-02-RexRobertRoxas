@@ -7,7 +7,7 @@
 <body>
     <div id = "header">
         <div class = "header_sections" id = "header_title">
-            <a href="#header"> Rex Robert Roxas' Portfolio </a>
+            <a href="#header" id="page_name"> Rex Robert Roxas' Portfolio </a>
         </div>
         
         <div class = "header_sections">
@@ -42,10 +42,13 @@
 
         <div id = "profile_container" class="section_container_horizontal">
             <div id = "feature_picture_container">
-                <img src="FeaturedPicture.png" id="feature_picture" />
+                <img src="./imgs/FeaturedPicture.png" id="feature_picture" />
             </div>
 
-            <div id="profile_information_container">
+            <div id="profile_information_container" class="section_container_vertical">
+                <div class="section_title_vertical" id="about_me"> About Me</div>
+                <br>
+                <br>
                 <table id = "profile_information">
                     <tr>
                         <td class = "information_cell_label">
@@ -140,14 +143,29 @@
 
 
         <div id="skills" class="section_container_vertical">
-            <div class="section_title_vertical">
+            <div class="section_title_vertical" id="skills_title">
                 Skills and Expertise
             </div>
             <div id="skills_content" class="section_container_horizontal">
-                <div class="skills_items">HTML</div>
-                <div class="skills_items"> CSS </div>
-                <div class="skills_items"> JavaScript </div>
-                <div class="skills_items"> PHP </div>
+                <div class="skills_items">
+                    <img src="imgs/html.svg" class="skills_icon">
+                    <br>
+                    HTML
+                </div>
+                <div class="skills_items" > 
+                    <img src="imgs/css.svg" class="skills_icon">
+                    <br>
+                    CSS 
+                </div>
+                <div class="skills_items">
+                    <img src="imgs/js.png" class="skills_icon">
+                    <br>
+                    JavaScript </div>
+                <div class="skills_items"> 
+                    <img src="imgs/php.png" class="skills_icon">
+                    <br>
+                    PHP
+                </div>
             </div>
         </div>
 
@@ -162,34 +180,27 @@
                         To-Do List
                     </div>
                     <div class="section_content_vertical">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nulla nec nisi vitae justo consectetur porttitor. 
-                        Quisque vehicula semper purus, mollis efficitur ipsum
-                        placerat sit amet. In hac habitasse platea dictumst. Nam
-                        et efficitur eros. Vestibulum metus lorem, rutrum sit
-                        amet tempor nec, posuere ut quam. Donec vestibulum ex
+                        A to-do list that sorts tasks based on a priority number, which takes into account the 
+                        deadline and percieved difficulty of a task.
                     </div>
                 </div>
                 <div class="section_content_horizontal project_image_container">
-                    HI
+                    <img src="./imgs/project_1.png" id="project_img_1">
                 </div>
             </div>
 
             <div class="section_container_horizontal project_container">
                 <div class="section_content_horizontal project_image_container">
-                    HI
+                    <img src="./imgs/project_2.png" id = "project_img_2">
                 </div>
                 <div class="section_container_vertical details_container" id="project_2">
                     <div class="section_subtitle_vertical">
-                        Memorization Helper
+                        Periodic Table Memorization Helper
                     </div>
                     <div class="section_content_vertical">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nulla nec nisi vitae justo consectetur porttitor. 
-                        Quisque vehicula semper purus, mollis efficitur ipsum
-                        placerat sit amet. In hac habitasse platea dictumst. Nam
-                        et efficitur eros. Vestibulum metus lorem, rutrum sit
-                        amet tempor nec, posuere ut quam. Donec vestibulum ex
+                        A flash-card style web application, that quizzes the user on the Periodic Table
+                        of Elements. It includes the atomic numbers, element names, and element symbols
+                        of the elements in the Periodic Table of Elements.
                     </div>
                 </div>
             </div>
@@ -200,12 +211,17 @@
                 <div class = "section_title_vertical contacts_title">
                     Contact Information
                 </div>
+                <br>
                 <div class = "contact_details">
-                    <div class="contact_icon">Icon</div>
+                    <div class="contact_icon">
+                        <img src="imgs/phone_icon.svg" class="contact_img">
+                    </div>
                     <div class="contact_information">09238682426</div>
                 </div>
                 <div class = "contact_details">
-                    <div class="contact_icon">Email</div>
+                    <div class="contact_icon">
+                        <img src="imgs/email.svg" class="contact_img">
+                    </div>
                     <div class="contact_information">rlroxas3@up.edu.ph</div>
                 </div>
             </div>
@@ -213,8 +229,12 @@
                 <div class = "section_title_vertical contacts_title">
                     Address
                 </div>
-                <div class="section_content_vertical">
-                    Mens Residence Hall, Jose B. Juliano Ave., UPLB, Los Baños, Laguna, Philippines 4031
+                <br>
+                <div class="contact_details">
+                    <div class="contact_icon">
+                        <img src="imgs/home.svg" class="contact_img">
+                    </div>
+                    <div class="contact_information"> Mens Residence Hall, Jose B. Juliano Ave., UPLB, Los Baños, Laguna, Philippines 4031</div>
                 </div>
             </div>
         </div>
