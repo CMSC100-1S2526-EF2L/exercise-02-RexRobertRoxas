@@ -19,3 +19,18 @@ BS Computer Science
 
 ## Key Takeaways
 My main takeaways from this exercise is the usefulness of flexboxes, as it makes it easier to layout the elements in a grid-like manner. Another main takeaway is that GitHub Pages is a good way to publish pages, especially for providing documentation or information about your repository.
+
+## External References
+HTML Logo: https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg#/media/File:HTML5_logo_and_wordmark.svg
+
+CSS Logo: https://commons.wikimedia.org/wiki/File:Official_CSS_Logo.svg
+
+JavaScript Logo: https://commons.wikimedia.org/wiki/File:JavaScript-logo.png
+
+PHP Logo: https://en.m.wikipedia.org/wiki/File:PHP-logo.svg
+
+Phone Icon: https://fonts.google.com/icons?selected=Material+Symbols+Outlined:call:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23FFF&icon.query=call
+
+Email Icon: https://fonts.google.com/icons?selected=Material+Symbols+Outlined:stacked_email:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23FFF&icon.query=email
+
+Home Icon: https://fonts.google.com/icons?selected=Material+Symbols+Outlined:home:FILL@0;wght@400;GRAD@0;opsz@24&icon.size=24&icon.color=%23FFF&icon.query=home
