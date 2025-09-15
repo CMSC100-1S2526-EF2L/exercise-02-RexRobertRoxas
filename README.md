@@ -3,6 +3,7 @@
 ## Required Information
 
 Rex Robert Roxas
+
 BS Computer Science
 
 (Index Page)[https://cmsc100-1s2526-ef2l.github.io/exercise-02-RexRobertRoxas/]
