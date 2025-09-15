@@ -6,7 +6,7 @@ Rex Robert Roxas
 
 BS Computer Science
 
-(Index Page)[https://cmsc100-1s2526-ef2l.github.io/exercise-02-RexRobertRoxas/]
+[Index Page](https://cmsc100-1s2526-ef2l.github.io/exercise-02-RexRobertRoxas/)
 
 ## Steps
 1. Clone the repository to your local machine.
