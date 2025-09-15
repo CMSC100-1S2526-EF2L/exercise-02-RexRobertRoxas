@@ -7,23 +7,31 @@
 <body>
     <div id = "header">
         <div class = "header_sections" id = "header_title">
-            Rex Robert Roxas' Portfolio
+            <a href="#header"> Rex Robert Roxas' Portfolio </a>
         </div>
         
         <div class = "header_sections">
-            About Me
+            <a href="#profile_container"> About Me </a>
         </div>
         
         <div class = "header_sections">
-            Autobiography
+            <a href="#autobiography"> Autobiography </a>
         </div>
 
         <div class = "header_sections">
-            Skills
+            <a href="#education"> Education </a>
+        </div>
+
+        <div class = "header_sections">
+            <a href="#skills"> Skills </a>
         </div>
         
         <div class = "header_sections">
-            Previous Projects
+            <a href="#projects"> Previous Projects </a>
+        </div>
+
+        <div class = "header_sections">
+            <a href="#contact"> Contact </a>
         </div>
     </div>
 
@@ -136,69 +144,78 @@
                 Skills and Expertise
             </div>
             <div id="skills_content" class="section_container_horizontal">
-                <div> HTML </div>
-                <div> CSS </div>
-                <div> JavaScript </div>
-                <div> PHP </div>
+                <div class="skills_items">HTML</div>
+                <div class="skills_items"> CSS </div>
+                <div class="skills_items"> JavaScript </div>
+                <div class="skills_items"> PHP </div>
             </div>
         </div>
 
         <div id="projects" class="section_container_vertical">
-            <div class="section_title_vertical">
+            <div class="section_title_vertical" id="projects_title">
                 Projects
             </div>
-            <div class="section_title_vertical" class="section_container_horizontal">
-                <div class="section_container_horizontal">
-                    <div class="section_container_vertical">
-                        <div class="section_title_vertical">
-                            To-Do List
-                        </div>
-                        <div class="section_content_vertical">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nulla nec nisi vitae justo consectetur porttitor. 
-                            Quisque vehicula semper purus, mollis efficitur ipsum
-                            placerat sit amet. In hac habitasse platea dictumst. Nam
-                            et efficitur eros. Vestibulum metus lorem, rutrum sit
-                            amet tempor nec, posuere ut quam. Donec vestibulum ex
-                        </div>
+            
+            <div class="section_container_horizontal project_container">
+                <div class="section_container_vertical details_container">
+                    <div class="section_subtitle_vertical">
+                        To-Do List
                     </div>
-                    <div class="section_content_horizontal">
-                        HI
+                    <div class="section_content_vertical">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nulla nec nisi vitae justo consectetur porttitor. 
+                        Quisque vehicula semper purus, mollis efficitur ipsum
+                        placerat sit amet. In hac habitasse platea dictumst. Nam
+                        et efficitur eros. Vestibulum metus lorem, rutrum sit
+                        amet tempor nec, posuere ut quam. Donec vestibulum ex
                     </div>
                 </div>
+                <div class="section_content_horizontal project_image_container">
+                    HI
+                </div>
             </div>
-            <div class="section_title_vertical" class="section_container_horizontal">
-                <div class="section_container_horizontal">
-                    <div class="section_content_horizontal">
-                        HI
+
+            <div class="section_container_horizontal project_container">
+                <div class="section_content_horizontal project_image_container">
+                    HI
+                </div>
+                <div class="section_container_vertical details_container" id="project_2">
+                    <div class="section_subtitle_vertical">
+                        Memorization Helper
                     </div>
-                    <div class="section_container_vertical">
-                        <div class="section_title_vertical">
-                            Memorization Helper
-                        </div>
-                        <div class="section_content_vertical">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nulla nec nisi vitae justo consectetur porttitor. 
-                            Quisque vehicula semper purus, mollis efficitur ipsum
-                            placerat sit amet. In hac habitasse platea dictumst. Nam
-                            et efficitur eros. Vestibulum metus lorem, rutrum sit
-                            amet tempor nec, posuere ut quam. Donec vestibulum ex
-                        </div>
+                    <div class="section_content_vertical">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Nulla nec nisi vitae justo consectetur porttitor. 
+                        Quisque vehicula semper purus, mollis efficitur ipsum
+                        placerat sit amet. In hac habitasse platea dictumst. Nam
+                        et efficitur eros. Vestibulum metus lorem, rutrum sit
+                        amet tempor nec, posuere ut quam. Donec vestibulum ex
                     </div>
                 </div>
             </div>
         </div>
-        <div id = "contact" class="section_container_vertical">
-            <div class = "section_title_vertical">
-                Contact Information
+
+        <div id="contact" class="section_container_horizontal">
+            <div class="section_container_vertical contact_info">
+                <div class = "section_title_vertical contacts_title">
+                    Contact Information
+                </div>
+                <div class = "contact_details">
+                    <div class="contact_icon">Icon</div>
+                    <div class="contact_information">09238682426</div>
+                </div>
+                <div class = "contact_details">
+                    <div class="contact_icon">Email</div>
+                    <div class="contact_information">rlroxas3@up.edu.ph</div>
+                </div>
             </div>
-            <div class = "section_container_horizontal">
-                <div>Icon</div>
-                <div>09238682426</div>
-            </div>
-            <div class = "section_container_horizontal">
-                <div>Email</div>
-                <div>rlroxas3@up.edu.ph</div>
+            <div class="section_container_vertical contact_info">
+                <div class = "section_title_vertical contacts_title">
+                    Address
+                </div>
+                <div class="section_content_vertical">
+                    Mens Residence Hall, Jose B. Juliano Ave., UPLB, Los Baños, Laguna, Philippines 4031
+                </div>
             </div>
         </div>
     </div>
